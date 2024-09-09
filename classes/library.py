@@ -5,11 +5,3 @@ class Library:
         self.users = {}
         self.track_books = {}
     
-
-'''
-    Library's system requirements:
-        - Add book 
-        - Remove book 
-        - Search book 
-        - Register for new person
-'''
