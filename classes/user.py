@@ -1,5 +1,3 @@
-from datetime import datetime, timedelta
-
 # User Class
 class User:
     def __init__(self, id, name, email):
@@ -7,5 +5,6 @@ class User:
         self.name = name
         self.email = email
         self.borrowed_books = {}
+        self.returned_books = {}
 
    
